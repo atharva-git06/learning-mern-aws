@@ -1,0 +1,27 @@
+/* Remove default margins and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Wrapper container */
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+}
+
+/* Main content area */
+.main-content {
+    flex: 1; /* Pushes the footer to the bottom when content is insufficient */
+}
+
+/* Footer styles */
+.footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-color); /* Replace with your actual color variable */
+    width: 100%;
+}
